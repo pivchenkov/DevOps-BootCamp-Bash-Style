@@ -28,7 +28,7 @@ while [ $ch -ne 3 ]; do
         break
       fi
 
-      if [ "${r[$($x-1)]}" -eq $n ]; then
+      if [ "${r[$($x-1)]}" -eq "$n" ]; then
         echo "Great"
         p=$(p+1)
       else
